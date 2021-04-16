@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单提交</title>
+    <link rel="stylesheet" href="mainCss.css">
+
+</head>
+<body>
+    <form action="success.html" >
+        <table border="1px solid black">
+        <tr>
+            <td rowspan="4">总体信息</td>
+            <th colspan="2">登录</th>
+        </tr>
+        <tr>
+            <td class="flot-right">用户名：</td>
+            <td class="flot-left">
+                <input type="text" placeholder="请输入用户名" name="loginName">
+            </td>
+        </tr>
+        <tr>
+            <td class="flot-right">密码:</td>
+            <td class="flot-left">
+                <input type="password" placeholder="请输入密码" name="pwd">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="submit" value="提交">
+                <input type="reset" value="重置">
+            </td>
+
+        </tr>
+    </table>
+    </form>
+
+
+</body>
+</html>

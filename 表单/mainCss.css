@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+}
+table{
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 600px;
+}
+table tr{
+    height: 40px;
+}
+.flot-right{
+    text-align: right;
+}
+.flot-left{
+    text-align: left;
+}

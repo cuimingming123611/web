@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+}
+table{
+    margin: 0 auto;
+    line-height: 48px;
+    border-collapse: collapse;
+}
+
+
+table td{
+    width: 200px;
+}
+
+/*可以使用<colgroup span = "6"  width = "100px">代替，表示前6列的宽度均为100px*/
+table tr th{
+    font-size: 24px;
+    font-weight: bolder;
+}
+table td:last-child{
+    width: 400px;
+}
+table tr:first-child{
+    height: 24px;
+}

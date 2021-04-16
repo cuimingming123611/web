@@ -1,0 +1,5 @@
+1、colspan ：行合并
+2、rowspan ：列合并
+3、col：列标签
+4、colgroup span=“几列”：列编组
+5、th：表示表头

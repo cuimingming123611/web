@@ -1,0 +1,10 @@
+table{
+    width: 100%;
+    min-height: 20px;
+    line-height: 24px;  /*行高*/
+    text-align: center;
+    border-collapse: collapse; /*去除边框间隔*/
+}
+table col{
+    width: 100px;  /*设置第一列的宽度*/
+}
